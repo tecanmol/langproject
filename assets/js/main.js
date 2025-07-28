@@ -212,9 +212,9 @@
 
       const links = {
         en: "/index.html",
-        cz: "/cz/index.html",
-        ar: "/ar/index.html",
-        hi: "/hi/index.html"
+        cz: "/czindex.html",
+        ar: "/arindex.html",
+        hi: "/hiindex.html"
       };
 
       if (links[selectedLang]) {
