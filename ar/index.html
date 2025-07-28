@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Lang Test</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="../assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">اختبار</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">الرئيسية</a></li>
+            <li><a href="#about">حول</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li class="dropdown"><a href="#"><span>قائمة منسدلة</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">قائمة منسدلة 1</a></li>
+                <li class="dropdown"><a href="#"><span>قائمة منسدلة عميقة</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">قائمة منسدلة عميقة 1</a></li>
+                    <li><a href="#">قائمة منسدلة عميقة 2</a></li>
+                    <li><a href="#">قائمة منسدلة عميقة 3</a></li>
+                    <li><a href="#">قائمة منسدلة عميقة 4</a></li>
+                    <li><a href="#">قائمة منسدلة عميقة 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">قائمة منسدلة 2</a></li>
+                <li><a href="#">قائمة منسدلة 3</a></li>
+                <li><a href="#">قائمة منسدلة 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">اتصال</a></li>
+            <li class="language-switcher">
+              <select id="language-select" class="form-select form-select-sm" style="width:auto;">
+                <option value="en">EN</option>
+                <option value="ar">CZ</option>
+                <option value="ar" selected>AR</option>
+                <option value="hi">HI</option>
+
+              </select>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+        <div class="language-switcher-mobile d-flex d-xl-none" style="padding: 10px;">
+          <select id="language-select-mobile" class="form-select form-select-sm" style="width:auto;">
+            <option value="en">EN</option>
+            <option value="en">CZ</option>
+            <option value="ar" selected>AR</option>
+            <option value="hi">HI</option>
+
+          </select>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>مرحباً بكم في <span>الاختبار</span></h1>
+            <p>هذا النص مثال</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">ابدأ الآن</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </section><section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">لوريم إيبسوم</a></h4>
+              <p>يتم استنكار اللذة والثناء على الألم، ومن خلال إفسادهم، يتسببون في آلام ومتاعب إلا القليل منهم</p>
+            </div>
+          </div><div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">سيد اوت بيرسبيسياتيس</a></h4>
+              <p>لا يؤدي ألم لوم الدولار في التوبيخ في المتعة التي يريدها أن تكون شعرة من الألم</p>
+            </div>
+          </div><div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">ماجني دولوريس</a></h4>
+              <p>باستثناء الحالات التي لا تكون فيها الرغبة الجامحة بادية للعيان، فإنهم مذنبون في التخلي عن واجباتهم</p>
+            </div>
+          </div><div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">لا أحد</a></h4>
+              <p>في الواقع، نحن نتهم ونكره أولئك الذين يستحقون الكراهية، والذين تملقهم الشهوة الحالية</p>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="about" class="about section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>حول</h2>
+        <p><span>اكتشف المزيد</span> <span class="description-title">عنا</span></p>
+      </div><div class="container">
+
+        <div class="row gy-3">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="../assets/img/about.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content ps-0 ps-lg-3">
+              <h3>من المفترض أن تجلس الملذات الجديرة بالثناء التي يوفرها الجسد.</h3>
+              <p class="fst-italic">
+                لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أدبيسشينج إليت، سيد دو إيوسمود تيمبور إنسيديدونت أوت لابور إيت دولور ماجنا أليكوا.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-diagram-3"></i>
+                  <div>
+                    <h4>أولامكو لابوريس نيسي أوت أليكويب كونسيكوات</h4>
+                    <p>من السهل واليسير صد التجار الأحرار الذين يقدمون استفسارات استثنائية</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bi bi-fullscreen-exit"></i>
+                  <div>
+                    <h4>يجب لوم الكراهية الكبيرة لحل التمرين</h4>
+                    <p>من الذي سيعود بكل الآلام في الزوج أو التمييز بين الآلام التي تمدح ذلك الطريق المستقيم</p>
+                  </div>
+                </li>
+              </ul>
+              <p>
+                أولامكو لابوريس نيسي أوت أليكويب السابقين إي أي كومودو كونسيكوات. دويس أوتي إيرور دولور في ريبريهينديريت في فولوبتات فيليت إس سيليوم دولور إيو فوجيات نولا باراياتور. إكسسيبتور سينت أوكايكات كوبيداتات غير برويدنت، صنت في كولبا كي أوفيسيا ديسيرونت موليت أنيم إد إست لابوروم
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>عملاء سعداء</p>
+            </div>
+          </div><div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>مشاريع</p>
+            </div>
+          </div><div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-headset"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>ساعات الدعم</p>
+            </div>
+          </div><div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>عاملون مجتهدون</p>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="clients" class="clients section light-background">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="../assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="../assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><section id="services" class="services section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>الخدمات</h2>
+        <p><span>تحقق من</span> <span class="description-title">خدماتنا</span></p>
+      </div><div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>نيسيونت ميت</h3>
+              </a>
+              <p>الحكيم لا شيء أقل من ذلك الذي لا يتبعه كل الكبراء. Eos اتهام ناقص الآلام iusto perferendis الوقت والعواقب.</p>
+            </div>
+          </div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>إيوسل كومودي</h3>
+              </a>
+              <p>أو لكن أو ليس أ. سينت سينت سينت فاسيليس نام iusto سينت. حر فاسد لا هو ولا هنا ولا جاهل بالألم.</p>
+            </div>
+          </div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>سوق ليدو</h3>
+              </a>
+              <p>ما لم تكن المتعة استثنائية. في الواقع، هروب العواقب. ناقصها أو. أو من هوية المتعة التي ينصح بها الفاسدون.</p>
+            </div>
+          </div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>سلع متنوعة</h3>
+              </a>
+              <p>لا وفي بعض الأحيان ناقص كل شيء ولكن الألم هو نتيجة لذلك. الشهوة ولكن خطأها هروبها حكيم ينصح لا.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>فيليت دولوريمك</h3>
+              </a>
+              <p>وغالبًا ما تتعهد به. هل الأكبر ولكن بالنسبة للعمل السهل أو لنفس الجسد أو. ولكن في بعض الأحيان أو عملها.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>مهندس الألم</h3>
+              </a>
+              <p>هنا متاعب البعض منهم. اهرب من أجل ألم أو لا وديون بحق. رفض الفاسدون قيادة الروح.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section><section id="portfolio" class="portfolio section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>مراكز البيانات</h2>
+        <p><span>تحقق من </span> <span class="description-title">مراكز البيانات الخاصة بنا</span></p>
+      </div><div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+<div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="../assets/img/ds1.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>التطبيق 1</h4>
+                <p>لوريم إيبسوم، دولور سيت</p>
+                <a href="../assets/img/ds1.jpeg" title="التطبيق 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="../assets/img/ds3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>المنتج 1</h4>
+                <p>لوريم إيبسوم، دولور سيت</p>
+                <a href="../assets/img/ds3.png" title="المنتج 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="../assets/img/ds2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>العلامة التجارية 1</h4>
+                <p>لوريم إيبسوم، دولور سيت</p>
+                <a href="../assets/img/ds2.png" title="العلامة التجارية 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div></div></div>
+
+      </div>
+
+    </section><section id="faq" class="faq section light-background">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>الأسئلة الشائعة</h2>
+    <p><span>الأسئلة</span> <span class="description-title">الشائعة</span></p>
+  </div><div class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="faq-container">
+
+          <div class="faq-item faq-active">
+            <h3>ما هو مركز البيانات ولماذا هو مهم؟</h3>
+            <div class="faq-content">
+              <p>مركز البيانات هو منشأة تستخدم لإيواء أنظمة الكمبيوتر والمكونات المرتبطة بها، مثل معدات التخزين والشبكات. إنه أمر بالغ الأهمية لتخزين البيانات ومعالجتها ونشرها للشركات والمؤسسات.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><div class="faq-item">
+            <h3>ما هي الأنواع المختلفة لمراكز البيانات؟</h3>
+            <div class="faq-content">
+              <p>هناك عدة أنواع من مراكز البيانات: المؤسسات، والمواقع المشتركة، والواسعة النطاق، والحافة. يخدم كل منها احتياجات مختلفة بناءً على الحجم والملكية والغرض.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><div class="faq-item">
+            <h3>ما هو دور التبريد في مركز البيانات؟</h3>
+            <div class="faq-content">
+              <p>تعد أنظمة التبريد في مراكز البيانات حيوية لمنع ارتفاع درجة حرارة الخوادم والأجهزة الأخرى. فهي تضمن الأداء الأمثل وتقلل من مخاطر فشل الأجهزة.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><div class="faq-item">
+            <h3>كيف يتم قياس وقت تشغيل مركز البيانات؟</h3>
+            <div class="faq-content">
+              <p>عادةً ما يتم قياس وقت التشغيل كنسبة مئوية على مدار عام. يوفر مركز بيانات من المستوى الرابع وقت تشغيل بنسبة 99.995%، أي ما يعادل حوالي 26 دقيقة من التوقف سنويًا.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><div class="faq-item">
+            <h3>ما هو مركز بيانات من المستوى 3؟</h3>
+            <div class="faq-content">
+              <p>يوفر مركز بيانات من المستوى 3 خوادم زائدة عن الحاجة ومزدوجة الطاقة وتخزينًا وروابط شبكة. ويضمن وقت تشغيل بنسبة 99.982% ويسمح بالصيانة دون توقف.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><div class="faq-item">
+            <h3>كيف تضمن مراكز البيانات أمن البيانات؟</h3>
+            <div class="faq-content">
+              <p>تستخدم مراكز البيانات طبقات متعددة من الأمان المادي والرقمي، بما في ذلك الوصول البيومتري وجدران الحماية وأنظمة كشف التسلل والتشفير لحماية المعلومات الحساسة.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div></div>
+
+      </div></div>
+
+  </div>
+
+</section><section id="contact" class="contact section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>اتصال</h2>
+        <p><span>هل تحتاج إلى مساعدة؟</span> <span class="description-title">اتصل بنا</span></p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>العنوان</h3>
+                  <p>A108 شارع آدم، نيويورك، 535022</p>
+                </div>
+              </div><div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>اتصل بنا</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>راسلنا</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">اسمك</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">بريدك الإلكتروني</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">الموضوع</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">الرسالة</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">جار التحميل</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">تم إرسال رسالتك. شكرًا لك!</div>
+
+                  <button type="submit">إرسال رسالة</button>
+                </div>
+
+              </div>
+            </form>
+          </div></div>
+
+      </div>
+
+    </section></main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>انضم إلى نشرتنا الإخبارية</h4>
+            <p>اشترك في نشرتنا الإخبارية وتلقى آخر الأخبار حول منتجاتنا وخدماتنا!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="اشتراك"></div>
+              <div class="loading">جار التحميل</div>
+              <div class="error-message"></div>
+              <div class="sent-message">تم إرسال طلب اشتراكك. شكرًا لك!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">بيزلاند</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 شارع آدم</p>
+            <p>نيويورك، 535022</p>
+            <p class="mt-3"><strong>الهاتف:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>البريد الإلكتروني:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>روابط مفيدة</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">الرئيسية</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">من نحن</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">الخدمات</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">شروط الخدمة</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>خدماتنا</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">مراكز البيانات</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">التدقيق والشهادات</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">الاختبار</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">التصميم والبناء</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>تابعنا</h4>
+          <p>كراس فيرمينتوم أوديو يو فيوجيات ليد بار ناسو تييرا فيدي ماجنا ديريتا فاليس</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
